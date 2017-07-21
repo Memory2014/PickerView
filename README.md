@@ -23,14 +23,14 @@ Create a new `PickerView`.
         let view = ZYPickerView.init(title: "select something")
         view.pickerStyle = .Text
         view.titlesForComponents = [["1","2","3"],["one","two","three","four","five"],["😀","😃","🙂","😜","😊"]]
-        view.doneAction = { date in
-            print(date)
+        view.doneAction = { item in
+            print(item)
         }
         view.show()
 ```
 
 or
-**TextPicker**:
+**DatePicker**:
 ```swift
        let view = ZYPickerView.init(title: "select date")
         view.pickerStyle = .Date
