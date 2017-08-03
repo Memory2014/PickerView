@@ -13,7 +13,7 @@ You can install it manually just draging [PickerView](https://github.com/Memory2
 
 ## Usage
 
-![Example](Pic/1.png) ![Example](Pic/2.png)
+ ![Example](Pic/2.png) ![Example](Pic/1.png)
 ### From Code
 
 Create a new `PickerView`.
